@@ -3,7 +3,7 @@ name: 自动获取硬币
 on:
   workflow_dispatch: # 允许在 Actions 页面手动触发此工作流，方便测试
   schedule:
-    - cron: '18 2 * * *'
+    - cron: '18 0 * * *'
 
 jobs:
   add_time:
